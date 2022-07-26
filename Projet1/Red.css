@@ -1,0 +1,122 @@
+@keyframes bar {
+   0% {
+    
+    width: 0px;
+    height: 0px;
+    background: rgba(22, 160, 133, 0.43);
+    position: absolute;
+    left: 790px;
+      }
+
+    100% {
+    
+    width: 600px;
+    height: 6px;
+    background: rgba(22, 160, 133, 0.43);
+    position: absolute;
+    
+    }
+
+    
+}
+
+.ktb span{
+    color: black;
+    font-family: 'Questrial', sans-serif;
+    font-size: 70px;
+    
+}
+
+body{
+    
+   background-image: url(wallpaper/7.jpg);
+    background-size: cover;
+}
+
+.box{
+   
+    width: 600px;
+    height: 600px;
+    background: rgba(44, 62, 80, 0.71);
+    
+    
+}
+
+
+ h1{
+     display: block;
+    padding: 50px;
+   font-family:'Ubuntu', sans-serif; 
+    
+}
+
+
+input{
+    margin:20px 0px 25px 0px ;
+    border: none;
+    border-radius: 50px;
+    background: #bdc3c7;
+    padding: 5px 30px;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+i{
+    position: absolute;
+    top: 198px;
+    left:674px;
+    opacity: 0.5;
+    
+}
+
+
+
+input{
+    margin: 15px;
+    border: none;
+    border-radius: 50px;
+    background: #bdc3c7;
+    padding: 5px 30px;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+
+
+textarea {
+  background-color: #bdc3c7;
+border-radius: 5%;
+    margin: 5%;
+  
+}
+button{
+    border: none;
+    border-radius: 50px;
+    background: #bdc3c7;
+    padding: 5px 30px;
+    margin: 35px;
+    cursor: pointer;
+    font-family: 'Questrial', sans-serif;
+}
+.bck{
+    padding:0 
+    
+}
+.bck a{
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    color:azure;
+    transition: 0.7s;
+}
+.bck a:hover{
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: 29px;
+    color:rgb(231, 76, 60);
+    transition: 0.7s;
+    
+}
+

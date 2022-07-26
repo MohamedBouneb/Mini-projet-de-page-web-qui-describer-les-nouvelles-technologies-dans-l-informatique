@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="Red.css" >
+   
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+   
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+ 
+ <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+   
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body >
+
+
+
+<script>
+    function app(){        
+        
+        email = document.getElementById('email').value;
+        n = email.indexOf("@");
+        res = email.substr(0,n);
+       alert(" Mercii "  + res);
+    }
+</script>
+ 
+ 
+    <center>  
+<div class="box">
+    
+    <H1> il y a question ? </H1>
+    <div class="textbox">
+     <form action="">   
+       <div class="btn">
+        
+        
+        <i class="far fa-envelope"></i><input id="email" type="text" placeholder="Email">
+        <br>
+        <textarea id="bt2" type="text" placeholder="laissez un message " rows="12" cols="50"></textarea>
+        <br>
+        <button type="button" onclick="app()" > Envoyer </button>
+
+        
+       </div> 
+    </form> 
+    <div class="bck">
+        
+        <a href="proj.html"> Back </a>   
+        
+    </div>
+    
+    </div>  
+       
+</div>
+    
+  </center>     
+    
+</body>
+</html>
